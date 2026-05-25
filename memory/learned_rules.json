@@ -1,0 +1,10 @@
+[
+  {
+    "pattern": "diesel + number",
+    "intent": "expense"
+  },
+  {
+    "pattern": "crop + kilo + nikla",
+    "intent": "harvest"
+  }
+]

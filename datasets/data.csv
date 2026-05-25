@@ -1,0 +1,149 @@
+text,intent,crop,quantity,amount
+
+SC me imidacloprid spray kiya,treatment,SC,,
+RC me neem oil spray hua,treatment,RC,,
+SC me spiromesifen dala,treatment,SC,,
+thrips ke liye flonicamid spray,treatment,,,
+whitefly control ke liye acetamiprid,treatment,,,
+mites control ke liye spiromesifen,treatment,,,
+leaf miner ke liye spinosad,treatment,,,
+caterpillar ke liye spinosad,treatment,,,
+aphids ke liye imidacloprid,treatment,,,
+thrips ke liye profenofos,treatment,,,
+SC me profenofos spray completed,treatment,SC,,
+RC me flonicamid spray completed,treatment,RC,,
+SC me neem oil 5 ml per liter spray,treatment,SC,,
+RC me thiamethoxam spray hua,treatment,RC,,
+whitefly bahut hai imidacloprid spray karo,treatment,,,
+SC me red spider mites aa gaye,treatment,SC,,
+mites control spray completed,treatment,,,
+
+SC me metalaxyl spray kiya,treatment,SC,,
+downey mildew ke liye metalaxyl,treatment,,,
+downy mildew control,treatment,,,
+late blight ke liye metalaxyl,treatment,,,
+water mold fungus ke liye metalaxyl,treatment,,,
+root rot ke liye metalaxyl,treatment,,,
+stem rot ke liye metalaxyl,treatment,,,
+pseudoperonospora cubensis control,treatment,,,
+SC me ridomil spray completed,treatment,SC,,
+RC me ridomil gold spray,treatment,RC,,
+phytophthora control ke liye metalaxyl,treatment,,,
+
+SC me carbendazim spray,treatment,SC,,
+stem rot ke liye carbendazim,treatment,,,
+fruit rot ke liye carbendazim,treatment,,,
+root rot control,treatment,,,
+fusarium control,treatment,,,
+wilt disease ke liye carbendazim,treatment,,,
+SC me bavistin spray completed,treatment,SC,,
+
+SC me mancozeb spray,treatment,SC,,
+early blight ke liye mancozeb,treatment,,,
+leaf spot control,treatment,,,
+alternaria control,treatment,,,
+fungus control spray,treatment,,,
+SC me antracol spray completed,treatment,SC,,
+
+SC me copper oxychloride spray,treatment,SC,,
+bacterial leaf spot ke liye copper,treatment,,,
+blight control ke liye copper oxychloride,treatment,,,
+blue copper spray,treatment,,,
+copper fungicide dala,treatment,,,
+
+SC me hexaconazole spray,treatment,SC,,
+powdery mildew ke liye hexaconazole,treatment,,,
+fungal infection control,treatment,,,
+powdery mildew control,treatment,,,
+tilt spray completed,treatment,,,
+
+SC me validamycin spray,treatment,SC,,
+sheath blight control,treatment,,,
+rhizoctonia control,treatment,,,
+stem base rot ke liye validamycin,treatment,,,
+
+SC me kasugamycin spray,treatment,SC,,
+bacterial disease control,treatment,,,
+bacterial blight ke liye kasugamycin,treatment,,,
+biomycin spray completed,treatment,,,
+
+SC me velum apply kiya,treatment,SC,,
+nematode control ke liye velum,treatment,,,
+root knot nematode control,treatment,,,
+nematicide treatment,treatment,,,
+soil nematode problem,treatment,,,
+SC me vaniva apply kiya,treatment,SC,,
+
+SC me abamectin spray,treatment,SC,,
+mites control ke liye abamectin,treatment,,,
+leaf miner ke liye abamectin,treatment,,,
+vertimec spray completed,treatment,,,
+
+SC me diafenthiuron spray,treatment,SC,,
+whitefly control ke liye diafenthiuron,treatment,,,
+mites aur whitefly control,treatment,,,
+pegasus spray completed,treatment,,,
+
+SC me buprofezin spray,treatment,SC,,
+nymph control ke liye buprofezin,treatment,,,
+whitefly nymph control,treatment,,,
+juvenile pest control,treatment,,,
+
+SC me chlorpyriphos dala,treatment,SC,,
+soil insect control,treatment,,,
+termite control,treatment,,,
+root grub control,treatment,,,
+
+SC me pendimethalin spray,treatment,SC,,
+weed control ke liye pendimethalin,treatment,,,
+herbicide spray completed,treatment,,,
+pre emergence herbicide,treatment,,,
+
+SC me glyphosate spray,treatment,SC,,
+weed killer spray,treatment,,,
+non selective herbicide,treatment,,,
+grass weed control,treatment,,,
+
+SC me oxyfluorfen spray,treatment,SC,,
+broadleaf weed control,treatment,,,
+selective herbicide,treatment,,,
+
+SC harvest 500 kg,harvest,SC,500,
+RC harvest 250 kg,harvest,RC,250,
+SC me 420 kilo nikla,harvest,SC,420,
+RC se 300 kg harvesting hui,harvest,RC,300,
+
+diesel expense 950,expense,,,950
+spray expense 1200,expense,,,1200
+fertilizer expense 5000,expense,,,5000
+labour payment 3000,payment,,,3000
+
+munna nahi aaya,attendance,,,
+hemsingh absent tha,attendance,,,
+worker present hai,attendance,,,
+
+govind payment 12000,payment,,,12000
+raju ko payment diya,payment,,,5000
+buyer payment received,payment,,,15000
+
+downy mildew aa gaya,disease_detection,,,
+root rot problem hai,disease_detection,,,
+powdery mildew symptoms,disease_detection,,,
+whitefly attack hai,pest_detection,,,
+thrips aa gaye,pest_detection,,,
+mites infestation,pest_detection,,,
+weed bahut hai,weed_problem,,,
+grass weed problem,weed_problem,,,
+
+SC me kaunsa fertilizer dena hai,fertilizer_recommendation,,,
+RC me fertilizer suggest karo,fertilizer_recommendation,,,
+vegetative stage me fertilizer kya de,fertilizer_recommendation,,,
+flowering stage fertilizer,fertilizer_recommendation,,,
+fruiting ke liye fertilizer,fertilizer_recommendation,,,
+potash kab dena hai,fertilizer_recommendation,,,
+calcium nitrate use kab kare,fertilizer_recommendation,,,
+19 19 19 kab spray kare,fertilizer_recommendation,,,
+micronutrient deficiency hai,nutrient_deficiency,,,
+nitrogen deficiency lag rahi hai,nutrient_deficiency,,,
+leaf yellow ho rahe hai,nutrient_deficiency,,,
+plants weak lag rahe hai,nutrient_deficiency,,,

@@ -1,0 +1,97 @@
+{
+  "neem oil": {
+    "category": "insecticide",
+    "formulation": "Neem Oil 1500 PPM",
+    "targets": [
+      "whitefly",
+      "eggs"
+    ],
+    "source": "batch_learning",
+    "dose": "5 ml/liter",
+    "moa_group": "UN",
+    "type": "organic",
+    "effectiveness_score": 6
+  },
+  "imidacloprid": {
+    "category": "unknown",
+    "formulation": "Imidacloprid 17.8% SL",
+    "targets": [
+      "whitefly"
+    ],
+    "source": "batch_learning"
+  },
+  "thiamethoxam": {
+    "category": "insecticide",
+    "formulation": "Thiamethoxam 25% WG",
+    "targets": [
+      "whitefly"
+    ],
+    "source": "batch_learning"
+  },
+  "acetamiprid": {
+    "category": "insecticide",
+    "formulation": "Acetamiprid 20% SP",
+    "targets": [
+      "whitefly"
+    ],
+    "source": "batch_learning",
+    "dose": "0.25 gm/liter",
+    "moa_group": "4A",
+    "type": "chemical",
+    "effectiveness_score": 8
+  },
+  "spiromesifen": {
+    "category": "insecticide",
+    "formulation": "Spiromesifen 22.9% SC",
+    "targets": [
+      "whitefly",
+      "mites"
+    ],
+    "source": "batch_learning"
+  },
+  "flonicamid": {
+    "category": "insecticide",
+    "formulation": "Flonicamid 50 WG",
+    "targets": [
+      "aphids",
+      "thrips"
+    ],
+    "source": "batch_learning"
+  },
+  "spinosad": {
+    "category": "insecticide",
+    "formulation": "Spinosad 45% SC",
+    "targets": [
+      "leaf miner",
+      "caterpillar"
+    ],
+    "source": "batch_learning"
+  },
+  "profenofos": {
+    "category": "insecticide",
+    "formulation": "Profenofos 50% EC",
+    "targets": [
+      "thrips",
+      "leaf miner"
+    ],
+    "source": "batch_learning"
+  },
+  "abamectin": {
+    "category": "insecticide",
+    "formulation": "Abamectin 1.9 EC",
+    "targets": [
+      "mites",
+      "leaf miner"
+    ],
+    "source": "batch_learning"
+  },
+  "diafenthiuron": {
+    "category": "insecticide",
+    "formulation": "Diafenthiuron 50 WP",
+    "targets": [
+      "whitefly",
+      "mites"
+    ],
+    "source": "batch_learning"
+  }
+}

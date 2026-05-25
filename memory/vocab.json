@@ -1,0 +1,20 @@
+{
+  "trika": {
+    "type": "product",
+    "category": "fungicide",
+    "intent": "treatment",
+    "treatment_type": "spray"
+  },
+
+  "bharaya": {
+    "type": "action_word",
+    "intent": "expense"
+  },
+
+  "velun": {
+    "type": "product",
+    "category": "nematicide_and_fungicide",
+    "intent": "treatment",
+    "treatment_type": "soil_treatment"
+  }
+}
