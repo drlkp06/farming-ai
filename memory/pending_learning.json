@@ -1,0 +1,88 @@
+{
+  "raw_input": "dinesh ko 300 rupyee diye",
+  "semantic_state": {
+    "raw_input": "dinesh ko 300 rupyee diye",
+    "normalized_text": "dinesh ko 300 rupye diye",
+    "intent": "entry",
+    "query_type": null,
+    "mode": "entry",
+    "operation": "payment",
+    "entities": {
+      "worker": "dinesh"
+    },
+    "confidence": 0.94,
+    "confidence_updates": {
+      "intent_confidence": 0.94
+    },
+    "semantic_focus": {
+      "user_meaning": "payment",
+      "flexible_language": true,
+      "query_classification": null,
+      "conversational_understanding": "entry",
+      "entity_validation": {
+        "valid": true,
+        "reason": "no_entity_rule"
+      }
+    },
+    "reasoning_trace": [
+      "payment operation detected",
+      "Operational cognitive extraction"
+    ],
+    "is_query": false,
+    "is_entry": true,
+    "save_status": {
+      "saved": true,
+      "reason": "event_saved"
+    },
+    "response": null,
+    "worker": "dinesh",
+    "clarification_type": null,
+    "farm": null,
+    "crop": null,
+    "product": null,
+    "vendor": null,
+    "buyer": null,
+    "quantity": 300,
+    "unit": null,
+    "amount": 300,
+    "pest": null,
+    "status": null,
+    "role": null,
+    "treatment_type": null,
+    "application_method": null,
+    "missing_fields": [],
+    "needs_clarification": false,
+    "context_status": "completed",
+    "context_confidence": null,
+    "context_source": "rule_engine",
+    "decision_engine": "operational_rule_engine",
+    "decision_reason": [],
+    "rule_trace": [
+      "RULE_PAYMENT_001"
+    ],
+    "rule_result": [
+      {
+        "rule": "RULE_PAYMENT_001",
+        "result": "matched",
+        "score_change": "+1.0"
+      }
+    ],
+    "operation_id": null,
+    "candidate_operation_id": null,
+    "related_operations": [],
+    "operation_snapshot": null,
+    "operation_history": [],
+    "confirmation_required": false,
+    "operation_relevance_score": null,
+    "risk_level": null,
+    "automation_policy": null,
+    "state_transition": null,
+    "merge_source_fields": [],
+    "learned_attributes": [],
+    "source": "user_defined",
+    "memory_updates": [
+      "farm event persisted"
+    ]
+  },
+  "pattern": "<worker> ko <number> rupye diye"
+}

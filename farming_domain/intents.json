@@ -1,0 +1,52 @@
+{
+ "harvest": {
+  "examples": [
+
+    "tudai hogi",
+    "maal utrega",
+
+    "420 kilo nikla",
+    "420 kilo nikli",
+    "420 kilo nikle",
+
+    "harvest hua",
+    "todai hui"
+
+  ],
+  "created_by": "system",
+  "created_at": "2026-05-11",
+  "type": "core"
+},
+  "expense": {
+    "examples": [
+      "diesel bharwaya"
+    ],
+    "created_by": "system",
+    "created_at": "2026-05-11",
+    "type": "core"
+  },
+  "market_price": {
+    "examples": [
+      "aaj kheere ke bhav 25 rupye kilo hai"
+    ],
+    "created_by": "user",
+    "created_at": "2026-05-11",
+    "type": "dynamic"
+  },
+  "payment": {
+    "examples": [
+      "hemsingh ko 500 rupye diye"
+    ],
+    "created_by": "user",
+    "created_at": "2026-05-11",
+    "type": "dynamic"
+  },
+  "oberon": {
+    "examples": [
+      "oberon"
+    ],
+    "created_by": "user",
+    "created_at": "2026-05-11",
+    "type": "dynamic"
+  }
+}

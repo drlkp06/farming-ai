@@ -1,0 +1,60 @@
+{
+  "intents": {
+
+    "expense": {
+
+      "keywords": [
+
+        "diesel",
+        "fuel",
+        "petrol",
+        "kharcha",
+        "bharwaya"
+
+      ]
+    },
+
+    "harvest": {
+
+      "keywords": [
+
+        "harvest",
+        "nikla",
+        "todai"
+
+      ]
+    },
+
+    "treatment": {
+
+      "keywords": [
+
+        "spray",
+        "fertilizer",
+        "dap",
+        "urea"
+
+      ]
+    },
+    
+    "blocked_words" : {
+
+      "keywords" : [
+
+          "aaj",
+          "kal",
+          "parso",
+          "total",
+          "payment",
+          "rupye",
+          "rupaye",
+          "rupyee",
+          "diya",
+          "diye",
+          "kitna",
+          "kitne"
+      ]
+    }
+}
+}
+

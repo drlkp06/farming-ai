@@ -1,0 +1,227 @@
+{
+  "phrase_aliases": {},
+  "pattern_clusters": {
+    "hisab": {
+      "meaning": "hisab",
+      "mapped_intent": "total_payment",
+      "mode": "query",
+      "confidence": 0.92,
+      "phrases": [
+        "pura lekha",
+        "poora lekha",
+        "cash book",
+        "payment summary",
+        "payment report",
+        "khata",
+        "hisaab",
+        "lekha",
+        "pura hisab",
+        "poora hisab"
+      ],
+      "examples": []
+    },
+    "expense": {
+      "meaning": "expense",
+      "mapped_intent": "expense",
+      "mode": "entry",
+      "confidence": 0.8,
+      "phrases": [
+        "bike 300 rupye petrol bharwaya",
+        "bike 100 petrol bharwaya",
+        "tempo aaj 850 diesel bharwaya",
+        "tempo 500 diesel bharwaya"
+      ],
+      "examples": [
+        "bike me 300 rupye ka petrol bharwaya",
+        "bike me 100 ka petrol bharwaya",
+        "tempo me aaj 850 ka diesel bharwaya",
+        "tempo me 500 ka diesel bharwaya"
+      ],
+      "created_at": "2026-05-26T10:31:36",
+      "last_seen": "2026-05-27T15:36:26"
+    },
+    "payment": {
+      "meaning": "payment",
+      "mapped_intent": "payment",
+      "mode": "action",
+      "confidence": 0.78,
+      "phrases": [
+        "300 rupye diye aaj",
+        "300 rupyee diye aaj",
+        "500 rupyee diye"
+      ],
+      "examples": [
+        "banwari ko 300 rupye diye aaj",
+        "banwari ko 300 rupyee diye aaj",
+        "dinesh ko 500 rupyee diye"
+      ],
+      "created_at": "2026-05-26T12:10:34",
+      "last_seen": "2026-05-26T16:17:07"
+    }
+  },
+  "learned_phrases": [
+    {
+      "phrase": "bike 300 rupye petrol bharwaya",
+      "mapped_intent": "expense",
+      "mode": "entry",
+      "confidence": 0.55,
+      "count": 1,
+      "examples": [
+        "bike me 300 rupye ka petrol bharwaya"
+      ],
+      "created_at": "2026-05-26T10:31:36",
+      "last_seen": "2026-05-26T10:31:36"
+    },
+    {
+      "phrase": "bike 100 petrol bharwaya",
+      "mapped_intent": "expense",
+      "mode": "entry",
+      "confidence": 0.92,
+      "count": 1,
+      "examples": [
+        "bike me 100 ka petrol bharwaya"
+      ],
+      "created_at": "2026-05-26T11:17:50",
+      "last_seen": "2026-05-26T11:17:50"
+    },
+    {
+      "phrase": "300 rupye diye aaj",
+      "mapped_intent": "payment",
+      "mode": "action",
+      "confidence": 0.55,
+      "count": 1,
+      "examples": [
+        "banwari ko 300 rupye diye aaj"
+      ],
+      "created_at": "2026-05-26T12:10:34",
+      "last_seen": "2026-05-26T12:10:34"
+    },
+    {
+      "phrase": "300 rupyee diye aaj",
+      "mapped_intent": "payment",
+      "mode": "entry",
+      "confidence": 1.0,
+      "count": 1,
+      "examples": [
+        "banwari ko 300 rupyee diye aaj"
+      ],
+      "created_at": "2026-05-26T14:18:45",
+      "last_seen": "2026-05-26T14:18:45"
+    },
+    {
+      "phrase": "tempo aaj 850 diesel bharwaya",
+      "mapped_intent": "expense",
+      "mode": "entry",
+      "confidence": 0.75,
+      "count": 1,
+      "examples": [
+        "tempo me aaj 850 ka diesel bharwaya"
+      ],
+      "created_at": "2026-05-26T14:28:04",
+      "last_seen": "2026-05-26T14:28:04"
+    },
+    {
+      "phrase": "500 rupyee diye",
+      "mapped_intent": "payment",
+      "mode": "entry",
+      "confidence": 0.94,
+      "count": 1,
+      "examples": [
+        "dinesh ko 500 rupyee diye"
+      ],
+      "created_at": "2026-05-26T16:17:07",
+      "last_seen": "2026-05-26T16:17:07"
+    },
+    {
+      "phrase": "tempo 500 diesel bharwaya",
+      "mapped_intent": "expense",
+      "mode": "entry",
+      "confidence": 0.95,
+      "count": 1,
+      "examples": [
+        "tempo me 500 ka diesel bharwaya"
+      ],
+      "created_at": "2026-05-27T15:36:26",
+      "last_seen": "2026-05-27T15:36:26"
+    }
+  ],
+  "observed_patterns": [
+    {
+      "canonical_pattern": "bike me <number> rupye ka petrol bharwaya",
+      "intent": "expense",
+      "mode": "entry",
+      "confidence": 0.55,
+      "count": 1,
+      "examples": [
+        "bike me 300 rupye ka petrol bharwaya"
+      ],
+      "created_at": "2026-05-26T10:31:36",
+      "last_seen": "2026-05-26T10:31:36"
+    },
+    {
+      "canonical_pattern": "bike me <number> ka petrol bharwaya",
+      "intent": "expense",
+      "mode": "entry",
+      "confidence": 0.92,
+      "count": 1,
+      "examples": [
+        "bike me 100 ka petrol bharwaya"
+      ],
+      "created_at": "2026-05-26T11:17:50",
+      "last_seen": "2026-05-26T11:17:50"
+    },
+    {
+      "canonical_pattern": "<worker> ko <number> rupye diye aaj",
+      "intent": "payment",
+      "mode": "entry",
+      "confidence": 0.5800000000000001,
+      "count": 2,
+      "examples": [
+        "banwari ko 300 rupye diye aaj",
+        "banwari ko 300 rupyee diye aaj"
+      ],
+      "created_at": "2026-05-26T12:10:34",
+      "last_seen": "2026-05-26T14:18:45"
+    },
+    {
+      "canonical_pattern": "tempo me aaj <number> ka diesel bharwaya",
+      "intent": "expense",
+      "mode": "entry",
+      "confidence": 0.75,
+      "count": 1,
+      "examples": [
+        "tempo me aaj 850 ka diesel bharwaya"
+      ],
+      "created_at": "2026-05-26T14:28:04",
+      "last_seen": "2026-05-26T14:28:04"
+    },
+    {
+      "canonical_pattern": "<worker> ko <number> rupye diye",
+      "intent": "payment",
+      "mode": "payment",
+      "confidence": 0.94,
+      "count": 1,
+      "examples": [
+        "dinesh ko 500 rupyee diye"
+      ],
+      "created_at": "2026-05-26T16:17:07",
+      "last_seen": "2026-05-26T16:17:07"
+    },
+    {
+      "canonical_pattern": "tempo me <number> ka diesel bharwaya",
+      "intent": "expense",
+      "mode": "expense",
+      "confidence": 0.95,
+      "count": 1,
+      "examples": [
+        "tempo me 500 ka diesel bharwaya"
+      ],
+      "created_at": "2026-05-27T15:36:26",
+      "last_seen": "2026-05-27T15:36:26"
+    }
+  ],
+  "interaction_stats": {
+    "expense": 4,
+    "payment": 3
+  }
+}
