@@ -655,8 +655,20 @@ def resolve_learning_confirmation(text):
         )
 
         learn_word(
-            ...
-        )
+
+        target_word,
+
+        {
+
+            "type":
+            lowered,
+
+            "source":
+            "interactive_learning"
+
+        }
+
+    )
         # ==========================================
         # ENTITY DATABASE SAVE
         # ==========================================

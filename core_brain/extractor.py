@@ -2005,7 +2005,6 @@ def process_input(user_input):
 
     )
 
-   
     # ==========================================
     # UNKNOWN INPUT LEARNING
     # ==========================================
@@ -2013,10 +2012,6 @@ def process_input(user_input):
     if not any(
 
         state.get("is_query")
-
-        or
-
-        state.get("is_entry")
 
         for state in semantic_states
 
@@ -2072,7 +2067,7 @@ def process_input(user_input):
         # ==========================================
         # UNKNOWN DETECTION
         # ==========================================
-
+       
         unknown_result = process_unknown_input(
 
             user_input,
@@ -2080,7 +2075,7 @@ def process_input(user_input):
             all_known_words
 
         )
-
+        
         # ==========================================
         # APPLY RESULT
         # ==========================================
@@ -2124,6 +2119,15 @@ def process_input(user_input):
                 }
 
             )
+            return [
+
+                cleanup_semantic_state(
+
+                    semantic_states[0]
+
+                )
+
+            ]
     # ==========================================
     # QUERY PIPELINE
     # ==========================================

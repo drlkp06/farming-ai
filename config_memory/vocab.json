@@ -2,5 +2,9 @@
   "saawriya": {
     "type": "worker",
     "source": "interactive_learning"
+  },
+  "testworkerxyz": {
+    "type": "worker",
+    "source": "interactive_learning"
   }
 }

@@ -87,8 +87,9 @@ def detect_unknown_entities(
 
 ):
     print(
-    "\n[ENTITY ENGINE RUNNING]"
-)
+        "\n[ENTITY DEBUG] DETECTOR RUNNING"
+
+    )
     words = user_input.lower().split()
 
     all_entities = load_entities()
