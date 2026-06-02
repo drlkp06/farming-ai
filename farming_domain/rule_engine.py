@@ -300,8 +300,23 @@ def get_first_number(text):
         return float(value)
 
     return int(value)
+# ==========================================
+# QUANTITY EXTRACTION
+# ==========================================
+def get_quantity_before_unit(text):
 
+    match = re.search(
 
+        r"(\d+(?:\.\d+)?)\s*(kg|kilo|liter|litre|gram|ml)",
+
+        text
+
+    )
+
+    if not match:
+        return None
+
+    return float(match.group(1))
 # ==========================================
 # UNIT EXTRACTION
 # ==========================================
@@ -1005,21 +1020,18 @@ def extract_by_rules(user_input):
 
         else:
 
-            number = get_first_number(text)
+            number = get_quantity_before_unit(text)
 
             data["quantity"] = number
 
-            data["unit"] = detect_unit(
-                text
-            )
-
+            data["unit"] = detect_unit(text)
     # ==========================================
     # NORMAL OPERATIONS
     # ==========================================
 
     else:
 
-        number = get_first_number(text)
+        number = get_quantity_before_unit(text)
 
         data["quantity"] = number
 

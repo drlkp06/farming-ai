@@ -418,9 +418,17 @@ def format_response(
     # CLARIFICATION
     # ==========================================
 
-    if semantic_state.get(
+    if (
 
-        "needs_clarification"
+        semantic_state.get(
+            "needs_clarification"
+        )
+
+        and
+
+        not semantic_state.get(
+            "learning_suggestion"
+        )
 
     ):
 

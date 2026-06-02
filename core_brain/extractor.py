@@ -1355,6 +1355,10 @@ def process_semantic_state(semantic_state):
 
     return semantic_state
 
+from core_brain.context_engine import (
+    get_pending_learning
+)
+
 # ==========================================
 # SET PENDING FIELD
 # ==========================================
@@ -1366,6 +1370,14 @@ def set_pending_if_needed(
 ):
 
     if not semantic_state:
+
+        return
+
+    # ==========================================
+    # LEARNING HAS PRIORITY
+    # ==========================================
+
+    if get_pending_learning():
 
         return
 

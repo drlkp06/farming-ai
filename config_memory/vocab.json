@@ -6,5 +6,13 @@
   "testworkerxyz": {
     "type": "worker",
     "source": "interactive_learning"
+  },
+  "newcropxyz": {
+    "type": "crop",
+    "source": "interactive_learning"
+  },
+  "newfarmtest2": {
+    "type": "farm",
+    "source": "interactive_learning"
   }
 }

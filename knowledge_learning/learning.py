@@ -51,6 +51,7 @@ VALID_LEARNING_GROUPS = {
     "worker",
     "vendor",
     "buyer",
+    "farm",
 
     "pest"
 
@@ -68,6 +69,8 @@ ROLE_TYPES = {
     "buyer",
 
     "crop",
+
+    "farm",
 
     "product",
 
